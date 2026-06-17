@@ -44,12 +44,12 @@ if (isset($_REQUEST['id'])) { $primary_id = $_REQUEST['id']; }
     <script>
         window.googletag = window.googletag || { cmd: [] };
         googletag.cmd.push(() => {
-            googletag.defineSlot("/22583435288/display_1",[[970,90],[728,90],[300,250]],"banner-ad").addService(googletag.pubads());
+            googletag.defineSlot("/23334516659/h5_1",[[970,90],[728,90],[300,250]],"banner-ad").addService(googletag.pubads());
             googletag.enableServices();
         });
         let anchorSlot;
         googletag.cmd.push(() => {
-            anchorSlot = googletag.defineOutOfPageSlot("/22583435288/ancher_1",
+            anchorSlot = googletag.defineOutOfPageSlot("/23334516659/h5_3",
                 document.body.clientWidth<=500
                     ? googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR
                     : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);
